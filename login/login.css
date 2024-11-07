@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mainWrapper {
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 1px;
+
+    width: 95vw;
+    height: 800px;
+    /* background-color: yellow; */
+    margin: auto;
+}
+
+.wrapper {
+    width: 1440px;
+    height: 800px;
+    margin: auto;
+    background-color: grey;
+    position: relative;
+}
+
+
+.login-article {
+    /* background-color: red; */
+    margin-top: 100px;
+    width: 1440px;
+    position: absolute;
+}
+
+.login-div {
+    width: 700px;
+    height: 400px;
+    background-color: #FD6F00;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.login-div h1 {
+    width: 300px;
+    height: 80px;
+    font-size: 80px;
+    font-weight: 700;
+    /* background-color: blue; */
+    margin-left: 10px;
+    margin: auto;
+    margin-top: 20px;
+    color: white;
+}
+
+.login-div h1 span {
+    color: rgb(5, 107, 107);
+}
+.pics img {
+    width: 300px;
+    height: 300px;
+    /* background-color: burlywood; */
+    margin-right: 50px;
+    margin-top: 20px
+
+}
+
+
+.daily {
+    /* background-color: grey; */
+    margin-left: 20px;
+}
+
+.inputs {
+    width: 285px;
+    height: 200px;
+    /* background-color: purple; */
+    margin: auto;
+    margin-top: 20px;
+}
+
+.inputs .username input {
+    width: 280px;
+    height: 40px;
+    border-radius: 12px;
+    font-size: 20px;
+    outline: none;
+    margin-top: 20px;
+    padding-left: 10px;
+    font-family: "Poppins", sans-serif;
+    border-color: #FD6F00;
+}
+
+.inputs .pass input {
+    width: 280px;
+    height: 40px;
+    border-radius: 12px;
+    outline: none;
+    font-size: 20px;
+    margin-top: 20px;
+    padding-left: 10px;
+    font-family: "Poppins", sans-serif;
+    border-color: #FD6F00;
+}
+
+.inputs .button {
+    /* background-color: red; */
+    width: 200px;
+    height: 50px;
+    margin: auto;
+    margin-top: 20px;
+}
+.inputs .button button {
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    margin-left: 24px;
+    background-color: rgba(233, 223, 223, 0.979);
+    border: none;
+}
+
+.inputs .button button a{
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+    color: rgb(86, 83, 83);
+}

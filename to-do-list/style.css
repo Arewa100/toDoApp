@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mainWrapper {
+    width: 95vw;
+    height: 700px;
+    /* background-color: yellow; */
+    margin: auto;
+}
+
+.wrapper {
+    width: 1440px;
+    height: 900px;
+    margin: auto;
+    background-color: rgb(125, 123, 123);
+    /* background-color: pink; */
+}
+
+
+.to-do-list {
+    width: 954px;
+    height: 700px;
+    margin: auto;
+    /* background-color: aquamarine; */
+    margin-top: 30px;
+    /* position: relative; */
+}
+
+.addtask {
+    width:950px;
+    height: 30px;
+    /* background-color: brown; */
+    margin-top: 40px;
+    /* position: absolute; */
+    
+}
+
+.add-task-input-div {
+    /* background-color: blue; */
+    margin: auto;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-task-input-div input {
+    width: 1450px;
+    height: 40px;
+    padding-left: 20px;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500px;
+    border: 1px solid rgb(237, 227, 227);
+    outline: none;
+}
+
+.add-task-input-div button {
+    height: 43.4px;
+    width: 60px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    outline: none;
+    background-color: #FD6F00;
+    color: white;
+    border: none;
+}
+
+.thelist {
+    width: 949px;
+    height: 500px;
+    margin-top: 60px;
+    /* position: relative; */
+    border:2px solid #FD6F00;
+    background-color: white;
+    padding: 20px
+}
+.image img{
+    width: 990px;
+    /* position: absolute; */
+    height: 100px;
+}
+.image {
+    position: relative;
+
+}
+
+.image p {
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    
+}
+
+.thelist ul {
+    list-style: none;
+    /* background-color: #FD6F00; */
+    
+}
+
+
+.thelist ul>li {
+    /* background-color: #FD6F00; */
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 12px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: grey;
+    border-top: white;
+    border-bottom: white;
+    border-right: white;
+    
+}
+
+
+.thelist ul>li:hover{
+    border-color: #FD6F00;
+}
+
+.thelist ul>li>span {
+    /* background-color: red; */
+    margin-top: 6px;
+
+}
+
+
+.checkbox input{
+    width: 20px;
+    height: 20px;
+}
+
+.checkbox {
+    align-items: center;
+}
+
+.checkbox button{
+    width: 100px;
+    height: 45px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    background-color: #FD6F00;
+    border: none;
+    color: white;
+}
